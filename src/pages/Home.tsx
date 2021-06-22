@@ -3,15 +3,24 @@ import { useHistory } from 'react-router-dom'
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
+
+import { auth, firebase } from '../services/firebase'
 import { Button } from '../components/Button'
 
 import '../styles/auth.scss'
 
 export function Home() {
   const history = useHistory()
+  
+  function handleCreateRoom() {
+    const provider = new firebase.auth.GoogleAuthProvider()
 
-  function navigateToNewRoom() {
-    history.push('/rooms/new')
+    auth.signInWithPopup(provider)
+      .then(result => {
+        console.log(result)
+
+        history.push('/rooms/new')
+      })
   }
 
   return (
@@ -28,7 +37,7 @@ export function Home() {
           <img src={logoImg} alt='Letmeask' />
 
           <button
-            onClick={navigateToNewRoom}
+            onClick={handleCreateRoom}
             className='create-room'
           >
             <img src={googleIconImg} alt='Logo do Google' />
