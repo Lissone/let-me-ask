@@ -9,7 +9,9 @@
   --secondary: #29292E;
   --background: #F8F8F8;
   --border: #A8A8B3;
+  --gray-500: #737380;
   --red-200: #EA4335;
+  --pink-50: #E559F9;
 }
 
 html {
@@ -28,4 +30,12 @@ body {
 
 body, input, button, textarea {
   font: 400 16px 'Roboto', sans-serif;
+}
+
+strong, h1, h2, h3,h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
