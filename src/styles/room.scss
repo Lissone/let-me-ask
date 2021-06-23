@@ -67,6 +67,26 @@
         justify-content: space-between;
         align-items: center;
 
+        .user-info {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 32px;
+            height: 32px;
+
+            border-radius: 50%;
+          }
+
+          > span {
+            margin-left: 8px;
+
+            font-size: .875rem;
+            font-weight: 500;
+            color: var(--secondary);
+          }
+        }
+
         span {
           font-size: .875rem;
           font-weight: 500;
