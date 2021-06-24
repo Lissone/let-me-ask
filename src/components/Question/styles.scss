@@ -39,5 +39,35 @@
         color: var(--gray-500);
       }
     }
+
+    button {
+      cursor: pointer;
+      border: 0;
+      
+      background: transparent;
+
+      transition: filter 0.2s;
+
+      &.like-button {
+        display: flex;
+        align-items: flex-end;
+
+        gap: .5rem;
+
+        color: var(--gray-500);
+
+        &.liked {
+          color: var(--primary);
+
+          svg path {
+            stroke: var(--primary);
+          }
+        }
+      }
+
+      &:hover {
+        filter: brightness(.4);
+      }
+    }
   }
 }
