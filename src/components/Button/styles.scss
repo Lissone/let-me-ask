@@ -18,6 +18,13 @@
     margin-right: 1rem;
   }
 
+  &.outlined {
+    border: 1px solid var(--primary);
+    
+    background: #FFF;
+    color: var(--primary);
+  }
+
   transition: filter .2s;
 
   &:not(:disabled):hover {
