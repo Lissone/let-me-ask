@@ -10,6 +10,20 @@
     margin-top: .5rem;
   }
 
+  &.highlighted {
+    border: 1px solid var(--primary);
+
+    background: var(--white-10);
+
+    footer .user-info span {
+      color: var(--secondary);
+    }
+  }
+  
+  &.answered {
+    background: var(--white-100);
+  }
+
   p {
     color: var(--secondary);
   }
@@ -40,6 +54,12 @@
       }
     }
 
+    > div {
+      display: flex;
+
+      gap: 1rem;
+    }
+    
     button {
       cursor: pointer;
       border: 0;
