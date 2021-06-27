@@ -50,11 +50,11 @@ First time using real-time database and social authentication with Firebase. Dev
 
 ## Layout
 
-You can view the project layout via this <a href="https://www.figma.com/file/7db9FCcfBsEngadaCYMcLS/Roquet.q?node-id=0%3A1" target="_blank">link</a>. You must have a <a href="https://figma.com" target="_blank">Figma</a> account to access it.
+You can view the project layout via this <a href="https://www.figma.com/file/Abi0EU77gpdjRVEOvKRYTf/Letmeask" target="_blank">link</a>. You must have a <a href="https://figma.com" target="_blank">Figma</a> account to access it.
 
 ## Demonstration
 
-![Demo Letmeask](https://media.giphy.com/media/UgKc6VUbEOTFY1Wl9f/giphy.gif)
+<img src="https://media.giphy.com/media/UgKc6VUbEOTFY1Wl9f/giphy.gif" alt="Demo Letmeask" />
 
 ## Usage
 
