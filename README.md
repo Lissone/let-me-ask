@@ -54,7 +54,7 @@ You can view the project layout via this <a href="https://www.figma.com/file/Abi
 
 ## Demonstration
 
-<img src="https://media.giphy.com/media/UgKc6VUbEOTFY1Wl9f/giphy.gif" alt="Demo Letmeask" />
+<img src="https://media.giphy.com/media/UgKc6VUbEOTFY1Wl9f/giphy.gif" alt="Demo Letmeask" width="100%" height="100%"/>
 
 ## Usage
 
