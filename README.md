@@ -7,8 +7,8 @@
   <a href="#requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#demonstration">Demonstration</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#usage">Usage</a>
+  <a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#demonstration">Demonstration</a>
 </p>
 <br />
 <p align="center">
@@ -52,14 +52,9 @@ First time using real-time database and social authentication with Firebase. Dev
 
 You can view the project layout via this <a href="https://www.figma.com/file/Abi0EU77gpdjRVEOvKRYTf/Letmeask" target="_blank">link</a>. You must have a <a href="https://figma.com" target="_blank">Figma</a> account to access it.
 
-## Demonstration
-
-<img src="./.github/demo-let-me-ask.gif" alt="Demo Letmeask" width="100%" height="100%"/>
-
 ## Usage
 
-You can use this project as a template for another one, or clone it on your pc using the command:
-
+You can clone it on your pc using the command:
 ```bash
 git clone https://github.com/Lissone/let-me-ask.git
 cd let-me-ask
@@ -78,6 +73,10 @@ yarn start
 #or
 npm run start
 ```
+
+## Demonstration
+
+<img src="./.github/demo-let-me-ask.gif" alt="Demo Letmeask" width="100%" height="100%"/>
 
 ## License
 
