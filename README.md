@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Letmeask" src="./src/assets/images/logo.svg">
+  <img alt="Letmeask logo" src="./src/assets/images/logo.svg">
 </h1>
 
 <p align="center">
@@ -32,12 +32,14 @@
 ## Description
 
 Platform that allows you to create quiz rooms, for people to ask questions and the owner of the room to answer, like or highlight specific questions. 
+
 First time using real-time database and social authentication with Firebase. Developed at the NLW 6 Together marathon, taught by Diego, CTO of rocketseat from April 20th to 27th, 2021.
 
 ## Requirements
 
-* [Yarn](https://yarnpkg.com/)
-* [Nodejs](https://nodejs.org/en/)
+- [Nodejs](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/)
+- [Yarn](https://yarnpkg.com/)
 
 ## Technologies
 
@@ -50,21 +52,23 @@ First time using real-time database and social authentication with Firebase. Dev
 
 ## Layout
 
-You can view the project layout via this <a href="https://www.figma.com/file/Abi0EU77gpdjRVEOvKRYTf/Letmeask" target="_blank">link</a>. You must have a <a href="https://figma.com" target="_blank">Figma</a> account to access it.
+You can view the project layout via this <a href="https://www.figma.com/file/Abi0EU77gpdjRVEOvKRYTf/Letmeask" target="_blank">link</a>.
 
 ## Usage
 
 You can clone it on your pc using the command:
+
 ```bash
 git clone https://github.com/Lissone/let-me-ask.git
 cd let-me-ask
 ```
 
 Install dependencies using:
+
 ```bash
 yarn
 #or
-npm run
+npm install
 ```
 
 Run project:
